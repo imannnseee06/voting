@@ -1,0 +1,83 @@
+Server.js file:
+1. require packages
+       ↓
+2. const app = express()
+       ↓
+3. app.use(...)
+       ↓
+4. connectDB()
+       ↓
+5. app.use(routes)
+       ↓
+6. app.listen(...)
+
+YOUR CURRENT PROJECT
+        │
+        ▼
+Step 1: Backend + MongoDB
+        │
+        ▼
+Step 2: Signup + Login + JWT
+        │
+        ▼
+Step 3: Candidate CRUD
+        │
+        ▼
+Step 4: Voting + One vote per user
+        │
+        ▼
+Step 5: Results
+        │
+        ▼
+Step 6: React frontend
+        │
+        ▼
+Step 7: Admin dashboard
+        │
+        ▼
+Step 8: Testing + GitHub + Deployment
+        │
+        ▼
+   COMPLETE CV PROJECT
+   what we want :
+   User logs in
+      ↓
+JWT verified
+      ↓
+User selects candidate
+      ↓
+Check isVoted
+      ↓
+Already voted?
+   ↙       ↘
+ YES       NO
+  ↓         ↓
+Reject    Record vote
+            ↓
+        isVoted = true
+            ↓
+        voteCount++
+        my work till step 2:
+        Postman
+   ↓
+Signup API
+   ↓
+User model
+   ↓
+Password hashing
+   ↓
+MongoDB
+   ↓
+JWT token generated
+
+testing done:
+Backend + MongoDB          ✅
+Signup                     ✅
+Login + JWT                ✅
+
+Candidate CRUD
+├── Create                 ✅
+├── Read all               ✅
+├── Read one               ✅
+├── Update                 ✅
+└── Delete                 ✅
